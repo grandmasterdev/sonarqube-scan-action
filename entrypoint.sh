@@ -36,6 +36,12 @@ pwd
 ls -la
 cd .scannerwork
 ls -la
+cd ./../../
+pwd
+ls -la
+cd /
+pwd
+ls -la
 
 sonar-scanner -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} ${INPUT_ARGS}
 
