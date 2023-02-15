@@ -42,6 +42,10 @@ ls -la
 cd /
 pwd
 ls -la
+cd ~
+pwd
+ls -la
+cd /github/workspace
 
 sonar-scanner -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} ${INPUT_ARGS}
 
