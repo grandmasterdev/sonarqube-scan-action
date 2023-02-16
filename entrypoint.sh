@@ -32,8 +32,8 @@ fi
 
 unset JAVA_HOME
 
-echo "workspace: "${INPUT_WORKSPACE}
-cd ${INPUT_WORKSPACE}
+echo "workspace: "${INPUT_WORKSPACEDIR}
+cd ${INPUT_WORKSPACEDIR}
 pwd
 ls -la
 
