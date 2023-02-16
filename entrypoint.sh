@@ -32,20 +32,8 @@ fi
 
 unset JAVA_HOME
 
+cd ${INPUT_WORKSPACE}
 pwd
-ls -la
-cd .scannerwork
-ls -la
-cd ./../../
-pwd
-ls -la
-cd /
-pwd
-ls -la
-cd ~
-pwd
-ls -la
-cd /github/workspace
 
 sonar-scanner -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} ${INPUT_ARGS}
 

@@ -17,3 +17,7 @@ inputs:
     description: Set the sonar.projectBaseDir analysis property
     required: false
     default: .
+  workspace:
+    description: Set the workspace for the scanner to work
+    required: false
+    default: /github/workspace
