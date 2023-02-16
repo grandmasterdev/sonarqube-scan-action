@@ -32,6 +32,7 @@ fi
 
 unset JAVA_HOME
 
+echo "workspace: "${INPUT_WORKSPACE}
 cd ${INPUT_WORKSPACE}
 pwd
 
