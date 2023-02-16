@@ -32,8 +32,8 @@ fi
 
 unset JAVA_HOME
 
-echo "workspace: "${INPUT_WORKSPACE}
-cd ${INPUT_WORKSPACE}
+echo "workspace: "${INPUT_PROJECTBASEDIR}
+cd ${INPUT_PROJECTBASEDIR}
 pwd
 
 sonar-scanner -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} ${INPUT_ARGS}
