@@ -36,6 +36,7 @@ echo "workspace: "${INPUT_WORKSPACEDIR}
 # cd /home/runner/_work/s3-av-scanner/s3-av-scanner
 pwd
 ls -la
+ls -la ~
 
 sonar-scanner -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} ${INPUT_ARGS}
 
