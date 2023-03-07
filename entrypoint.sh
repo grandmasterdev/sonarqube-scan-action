@@ -33,7 +33,7 @@ fi
 unset JAVA_HOME
 
 echo "workspace: "${INPUT_WORKSPACEDIR}
-cd /home/runner/_work/s3-av-scanner/s3-av-scanner
+# cd /home/runner/_work/s3-av-scanner/s3-av-scanner
 pwd
 ls -la
 
